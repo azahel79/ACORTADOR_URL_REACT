@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #f4f1f1;
+}
+
+:root{
+    --fuente1: 'Raleway', sans-serif;
+}
+
+.title{
+    text-align: center;
+    margin-top:20px;
+    font-family: var(--fuente1);
+}
+
+
+.ctr__urls{
+    width: 55%;
+    margin: 40px auto;
+    background: #fff;
+    
+    padding: 30px;
+}
+
+.form__urls{
+    display: flex;
+}
+
+.form__urls .input__url{
+ flex-grow: 4;
+ outline: none;
+ padding: 10px  10px 10px 5px;
+ border-radius: 5px 0 0px 5px;
+ border-top: none;
+ border-left: 1px solid #d5d6d7;
+ border-bottom: 1px solid #d5d6d7;
+ font-family: var(--fuente1);
+ font-weight: 500;
+}
+
+.form__urls .send__url{
+  flex-grow: 1;
+  background: #444;
+  color: #fff;
+  border: none;
+  font-family: var(--fuente1);
+  
+  font-size: 17px;
+  border-radius: 0 5px 5px 0;
+}
+
+
+.error{
+    background: crimson;
+    width: 85%;
+    margin:20px auto;
+    color: #fff;
+    text-align: center;
+    font-family: var(--fuente1);
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.list__urls {
+    height: 300px;
+    overflow-y: scroll;
+}
+
+ .title__urls{
+    text-align: center;
+    font-family: var(--fuente1);
+    margin-top: 30px;
+}
+
+.list__urls .url__item{
+    border-bottom: 1px solid #d5d6d7;
+    padding: 10px 0;
+}
+
+.list__urls .url__item p{
+  padding: 5px 0;
+  font-family: var(--fuente1);
+  font-weight: 600;
+}
+
+.list__urls .url__item span{
+    font-weight: 400;
+}
+
+
+.urls__none{
+    text-align: center;
+    font-family: var(--fuente1);
+    padding-top: 30px;
+}
